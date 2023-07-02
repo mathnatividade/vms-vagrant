@@ -43,10 +43,10 @@ Certifique-se de ajustar os endereços e a faixa de IP que irá usar, além outr
 
 O `Vagrantfile` inclui o provisionamento com Docker e scripts shell adicionais. Modifique os scripts de provisionamento conforme necessário ou adicione novos de acordo com suas necessidades.
 
-- ´install-docker.sh´: Instala o Docker nas máquinas virtuais.
-- ´swarm-master.sh´: Script específico para a máquina chamada "master", configura o Docker Swarm como um nó mestre.
-- ´swarm-worker.sh´: Script específico para as máquinas que não são "master", configura o Docker Swarm como um nó trabalhador.
-- ´swarm-init-service.sh´: Script específico para a máquina chamada "master", cria um serviço Docker chamado "webserver" com 15 réplicas usando a imagem "httpd" e configura um volume Docker para compartilhar dados entre os contêineres.
+- `install-docker.sh`: Instala o Docker nas máquinas virtuais.
+- `swarm-master.sh`: Script específico para a máquina chamada "master", configura o Docker Swarm como um nó mestre.
+- `swarm-worker.sh`: Script específico para as máquinas que não são "master", configura o Docker Swarm como um nó trabalhador.
+- `swarm-init-service.sh`: Script específico para a máquina chamada "master", cria um serviço Docker chamado "webserver" com 15 réplicas usando a imagem "httpd" e configura um volume Docker para compartilhar dados entre os contêineres.
 
 Você pode personalizar esses scripts ou adicionar seus próprios scripts de provisionamento conforme necessário.
 
