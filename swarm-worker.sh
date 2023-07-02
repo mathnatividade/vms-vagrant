@@ -1,0 +1,2 @@
+#!/bin/bash
+docker swarm join --token TOKEN QUE SERÁ GERADO AO INICIAR O SWARM NO MASTER IP.DO.SEU.MASTER:2377
