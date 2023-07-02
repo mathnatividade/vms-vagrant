@@ -60,6 +60,28 @@ vagrant up
 
 O Vagrant irá criar e provisionar as máquinas virtuais com base nas configurações especificadas no arquivo `Vagrantfile`. Cada máquina terá seu próprio endereço IP fixo e nome do host.
 
+## Parar e encerrar as Máquinas Virtuais
+
+Você pode parar ou encerrar as máquinas virtuais usando comandos do Vagrant.
+
+- Para parar as máquinas virtuais sem destruí-las:
+
+  ```bash
+  vagrant halt
+  ```
+
+Isso irá interromper as máquinas virtuais, preservando o estado atual. Você pode reiniciá-las posteriormente com o comando `vagrant up`.
+
+- Para encerrar e destruir as máquinas virtuais:
+
+```bash
+vagrant destroy
+```
+
+Isso irá encerrar e remover completamente as máquinas virtuais. Tenha cuidado, pois isso irá excluir todos os dados e configurações associados às máquinas virtuais.
+
+Certifique-se de estar no diretório do projeto antes de executar esses comandos.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou quiser sugerir melhorias, sinta-se à vontade para abrir uma issue ou criar um pull request.
