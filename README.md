@@ -66,9 +66,9 @@ Você pode parar ou encerrar as máquinas virtuais usando comandos do Vagrant.
 
 - Para parar as máquinas virtuais sem destruí-las:
 
-  ```bash
-  vagrant halt
-  ```
+```bash
+vagrant halt
+```
 
 Isso irá interromper as máquinas virtuais, preservando o estado atual. Você pode reiniciá-las posteriormente com o comando `vagrant up`.
 
